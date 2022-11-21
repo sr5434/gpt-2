@@ -2,7 +2,6 @@ import numpy as np
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 from hparams import HParams
-
 def default_hparams():
     return HParams(
         n_vocab=0,
